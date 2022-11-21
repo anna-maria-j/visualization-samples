@@ -7,8 +7,9 @@
     margin-top: 0;
   }
 }
-.table {
-  flex: 1;
-  width: 100%;
+.charts {
+  display: flex;
+  > div {
+    flex: 1;
+  }
 }
-

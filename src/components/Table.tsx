@@ -36,7 +36,7 @@ export default function Table() {
 
   return (
     <div className={classes.root}>
-      <h1>Table</h1>
+      <h2>Table</h2>
       <div className={`ag-theme-alpine ${classes.table}`}>
         <AgGridReact
           rowData={rowData}
